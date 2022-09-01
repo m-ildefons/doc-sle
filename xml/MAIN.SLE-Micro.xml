@@ -53,7 +53,7 @@
    </date>
    <xi:include href="common_copyright_gfdl.xml"/>
   </info>
-  <xi:include href="art_admin_slemicro.xml"/>
+  <!-- <xi:include href="art_admin_slemicro.xml"/> -->
   <xi:include href="art_admin_slemicro_podman.xml"/>
   <xi:include href="art_admin_slemicro_selinux.xml"/>
   <xi:include href="art_admin_slemicro_cockpit.xml"/>
@@ -61,5 +61,9 @@
 
  </book>
  
+
+   </book>
+ <xi:include href="book_admin_slemicro.xml"/>
+
 
 </set>
