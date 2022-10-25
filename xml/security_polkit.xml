@@ -32,12 +32,13 @@
          &pk; grants specific privileges to a user or group on an
          as-needed basis. This is controlled by configuration files that
          describe individual actions that need to be authorized
-	        in a dynamic context.
+                in a dynamic context.
         </para>
       </abstract>
       <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
         <dm:bugtracker>
-          </dm:bugtracker>
+        </dm:bugtracker>
+        <dm:translation>yes</dm:translation>
       </dm:docmanager>
  </info>
 

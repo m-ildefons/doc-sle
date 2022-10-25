@@ -1,14 +1,14 @@
 ## ---------------------------- 
-## Doc Config File for SLES
-## Container Guide
+## Doc Config File for SLE Micro
+## Cockpit Guide
 ## ----------------------------
 ##
 ## Basics
-MAIN="MAIN.SLEDS.xml"
-ROOTID=book-container
+MAIN="MAIN.SLE-Micro.xml"
+ROOTID=article-cockpit-slemicro
 
 ## Profiling
-PROFOS="sles"
+PROFOS="slemicro"
 PROFARCH="x86_64;zseries;power;aarch64"
 
 ## stylesheet location

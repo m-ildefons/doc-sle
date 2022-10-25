@@ -28,6 +28,7 @@
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
    <dm:bugtracker>
    </dm:bugtracker>
+   <dm:translation>yes</dm:translation>
   </dm:docmanager>
  </info>
 
@@ -1259,8 +1260,8 @@ valid from 2022-08-08T14:20:00 to 2022-09-05T15:21:19
    </para>
  </sect1>
 
-<sect1 xml:id="sec-ssh-ssh-agent">
-   <title>Automated public key logins in the console with ssh-agent</title>
+  <sect1 xml:id="sec-ssh-authentic-agent">
+   <title>Automated public key logins with ssh-agent</title>
    <para>
     The <package>openssh</package> package
     provides the <command>ssh-agent</command> utility, which retains your
@@ -1289,7 +1290,7 @@ ssh-add</screen>
    </para>
    <screen>&prompt.user;ssh-add <replaceable>id_rsa id_ed25519</replaceable></screen>
 
-   <sect2 xml:id="sec-ssh-authentic-agent">
+   <sect2 xml:id="sec-ssh-authentic-agent-x">
     <title>Using <command>ssh-agent</command> in an X session</title>
     <para>
      On &productname;, <command>ssh-agent</command> is automatically
